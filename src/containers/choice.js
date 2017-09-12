@@ -1,10 +1,9 @@
 import React, { Component, PropTypes } from 'react'
 
-export default class Weather extends Component {
+export default class My extends Component {
     render() {
         return (
-            <p>Weather page哈哈哈</p>
+            <p>choice</p>
         )
-
     }
 }

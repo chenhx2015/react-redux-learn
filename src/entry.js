@@ -3,7 +3,7 @@
 
 //引入样式文件  全局的可以在这引入 单个文件的在相关文件单个引入
 import './styles/app.scss';
-
+import './service/rem';
 
 //引入组件
 //import './components/App.js';  //先注释 这个文件换成自己的文件内容

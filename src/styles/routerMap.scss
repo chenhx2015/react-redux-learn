@@ -1,21 +1,35 @@
-.container{
-    color:#000;
-    margin: 0px;
-    padding: 0px;
-    background: #eee;
-    .navul{
-        background: #ddd;
-        width:100%;
-        overflow: hidden;
-        li{
-            float: left;
-            width:20%;
-            background: #eee;
-            padding: 20px 0px;
-            text-align: center;
-            a{
-                text-decoration: none;
+body{
+    font-size: 16px;
+    // background: #f9c;
+    #app{
 
+        font-size: 0.25rem;
+        .container{
+            color:#000;
+            margin: 0px;
+            padding: 0px;
+            // background: #eee;
+            background: #f9c;
+            .navul{
+                position: absolute;
+                bottom: 0px;
+                background: #ddd;
+                // background: #f9c;
+                width:100%;
+                overflow: hidden;
+                li{
+                    float: left;
+                    width:20%;
+                    // background: #eee;
+                    padding: 0.25rem 0rem;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        font-size: 0.22rem;
+                        color:#000;
+                    }
+
+                }
             }
         }
     }

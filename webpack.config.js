@@ -15,9 +15,14 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.js$/, loader: "jsx!babel", include: /src/},
+            // {
+            //     test: /\.jsx$/,
+            //     loaders: ['babel-loader'],
+            //     include: /src/
+            // },
             { test: /\.css$/, loader: ExtractTextPlugin.extract("style", "css!postcss")},
             { test: /\.scss$/, loader: ExtractTextPlugin.extract("style", "css!postcss!sass")},
-            { test: /\.(png|jpg)$/, loader: 'url?limit=8192'}
+            { test: /\.(png|jpg|jpeg)$/, loader: 'url?limit=8192'}
         ]
     },
 
@@ -32,6 +37,10 @@ module.exports = {
         historyApiFallback: true,  //不跳转
         inline: true  //实时刷新
     },
+
+    // resolve: {
+	// 	extensions: ['.js', '.jsx', '.sass', '.scss','.css']
+	// },
 
     plugins: [
         new ExtractTextPlugin('main.css'),

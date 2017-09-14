@@ -84,7 +84,7 @@ export default class RouterMap extends Component{
             {/**
             * 这里可以公共的样式,比如 头部, 尾部, 等.
             */}
-            <footer className="footer">Little Peach's happy times !</footer>
+            {/* <footer className="footer">Little Peach's happy times !</footer> */}
         </div>
       </Router>
     );

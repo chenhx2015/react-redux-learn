@@ -1,34 +1,54 @@
+
 body{
     font-size: 16px;
-    // background: #f9c;
     #app{
-
+        // margin-bottom: ;
         font-size: 0.25rem;
         .container{
+            height: 100%;
             color:#000;
             margin: 0px;
             padding: 0px;
-            // background: #eee;
             background: #f9c;
             .navul{
-                position: absolute;
+                position: fixed;
                 bottom: 0px;
-                background: #ddd;
-                // background: #f9c;
+                background: #fff;
                 width:100%;
+                height: 0.82rem;
+                vertical-align: middle;
                 overflow: hidden;
+                border-top: 1px solid #eee;
                 li{
                     float: left;
                     width:20%;
-                    // background: #eee;
-                    padding: 0.25rem 0rem;
+                    padding: 0.4rem 0rem;
                     text-align: center;
                     a{
                         text-decoration: none;
-                        font-size: 0.22rem;
+                        font-size: 0.2rem;
                         color:#000;
                     }
-
+                    &:first-of-type{
+                        background: url(../../assets/images/b1.png) 50% 8% no-repeat;
+                        background-size: 26% auto;
+                    }
+                    &:nth-of-type(2){
+                        background: url(../../assets/images/b2.png) 50% 8% no-repeat;
+                        background-size: 24% auto;
+                    }
+                    &:nth-of-type(3){
+                        background: url(../../assets/images/b3.png) 50% 8% no-repeat;
+                        background-size: 22% auto;
+                    }
+                    &:nth-of-type(4){
+                        background: url(../../assets/images/b3.png) 50% 8% no-repeat;
+                        background-size: 22% auto;
+                    }
+                    &:nth-of-type(5){
+                        background: url(../../assets/images/b4.png) 50% 10% no-repeat;
+                        background-size: 22% auto;
+                    }
                 }
             }
         }

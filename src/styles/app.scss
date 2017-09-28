@@ -2,8 +2,16 @@ html, body, div, h5, h6, p, ul, li {
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: #EFEFF4;
+}
+html,body{
+    height: 100%;
+    margin-bottom: 180px;
+}
 
 #app {
+    height: 100%;
     padding: 0px;
     .title {
         font-size: 25px;

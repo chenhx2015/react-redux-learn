@@ -1,0 +1,85 @@
+.products-page{
+    .product-title{
+        width:100%;
+        text-align: center;
+        background: #DB3738;
+        color:#fff;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        font-weight: lighter;
+        font-size: 0.28rem;
+        position: fixed;
+        top:0;
+    }
+    .productList{
+        &:first-of-type{
+            margin-top: 0.8rem;
+        }
+        margin-bottom: 0.1rem;
+        background: #fff;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid #eee;
+        .cata{
+            padding: 0.3rem;
+            overflow: hidden;
+            .cata-fl{
+                float: left;
+                font-size: 0.28rem;
+                color:#575757;
+            }
+        }
+        .rate{
+            width:90%;
+            margin: 0 auto;
+            color:#DB3738;
+            text-align: left;
+            font-size: 0.4rem;
+        }
+        .possess-time{
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.14rem;
+            width:90%;
+            margin:0 auto;
+            color:#ABABAB;
+            text-align: center;
+            font-weight: lighter;
+            overflow: hidden;
+            margin-top: 0.12rem;
+            font-size: 0.22rem;
+            .fl{
+                float: left;
+            }
+            .fr{
+                float: right;
+            }
+        }
+        .invest{
+            width:90%;
+            margin: 0 auto;
+            overflow: hidden;
+            .start{
+                float: left;
+                margin-top: 0.3rem;
+                color:#ABABAB;
+                font-weight: lighter;
+                font-size: 0.22rem;
+            }
+            .investBtn{
+                float: right;
+                display: block;
+                width:24%;
+                margin: 0 auto;
+                margin-top: 0.2rem;
+                background: #DB3737;
+                border: none;
+                text-align: center;
+                color:#fff;
+                padding: 0.14rem 0;
+                font-size: 0.24rem;
+                font-weight: lighter;
+                box-shadow: 0px 2px 10px 0px #ababab;
+                outline: none;
+            }
+        }
+    }
+}

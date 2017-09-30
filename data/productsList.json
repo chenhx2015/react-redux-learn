@@ -1,0 +1,25 @@
+{
+    "productsList":[
+        {
+            "productId": "01001",
+            "name": "灵通宝A",
+            "rate":"7.00%",
+            "possessTime":"7",
+            "minMoney": "100"
+        },
+        {
+            "productId": "01002",
+            "name": "灵通宝B",
+            "rate":"8.00%",
+            "possessTime":"30",
+            "minMoney": "1000"
+        },
+        {
+            "productId": "01003",
+            "name": "灵通宝C",
+            "rate":"9.00%",
+            "possessTime":"180",
+            "minMoney": "10000"
+        }
+    ]
+}

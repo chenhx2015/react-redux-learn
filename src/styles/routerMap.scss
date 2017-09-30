@@ -1,15 +1,19 @@
 
 body{
+    // 去除移动端元素点击时产生的背景颜色
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color:rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color:rgba(0, 0, 0, 0);
+    -o-tap-highlight-color:rgba(0, 0, 0, 0);
+    tap-highlight-color:rgba(0, 0, 0, 0);
     font-size: 16px;
     #app{
-        // margin-bottom: ;
         font-size: 0.25rem;
         .container{
             height: 100%;
             color:#000;
             margin: 0px;
             padding: 0px;
-            background: #f9c;
             .navul{
                 position: fixed;
                 bottom: 0px;
@@ -28,6 +32,9 @@ body{
                         text-decoration: none;
                         font-size: 0.2rem;
                         color:#000;
+                    }
+                    a:active{
+                        background: none;
                     }
                     &:first-of-type{
                         background: url(../../assets/images/b1.png) 50% 8% no-repeat;
